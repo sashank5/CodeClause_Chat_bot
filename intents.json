@@ -1,0 +1,49 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", "Till next time"],
+         "responses": ["See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["CodeClause has industry-specific software expertise in Technology, Financial, Healthcare, Media, Manufacturing, and many other sectors. The company specializes in offering Data & Analytics, Automation AI, IoT Services, Web Designing, Web Application Development, Mobile Application Development, Software Development, Digital Marketing, Software Testing, Quality Assurance services, and many more."],
+         "context": [""]
+        },
+        {"tag": "Internship",
+         "patterns": ["Internships?", "Available internships?", "what are all availale internships?", "Internships you offer?", "All internships" ],
+         "responses": ["Data Science, Artificial Intelligence, Web Development, Android Development, Java developer, Graphic Designer ,Content Writer"],
+         "context": [""]
+        },
+        {"tag": "Services",
+         "patterns": ["Services", "what are all the services available?", "What services can you offer?", "list out the services", "list the services available" ],
+         "responses": ["Data & Analytics, Automation AI, Internet of Things(IoT), Software Development, Web Development, App Development"],
+         "context": [""]
+        },
+        {"tag": "Contact",
+         "patterns": ["How can I contact you?","Contact you","Connect you","Mail you"],
+         "responses": ["Mail us at contact@codeclause.com\n"],
+         "context": [""]
+        },
+        {"tag": "LinkedIn Profile",
+         "patterns": ["What is your linkedin", "Can yu give me profile", "Profile in linkedin"],
+         "responses": ["https://www.linkedin.com/company/codeclause/"],
+         "context": ["search_pharmacy_by_name"]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        }
+
+   ]
+}
